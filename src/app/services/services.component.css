@@ -1,0 +1,10 @@
+ul.service-list{margin: 0;padding: 0 0 23px; border: none; background: none;}
+ul.service-list li{margin: 0;padding: 0;line-height: 20px; list-style-type: disc;    width: 100%; float: none; border: none !important;}
+ul.service-list li:nth-child(even) {width: 100%;background: none;color: #373542;border: none !important;}
+.pb-30 {padding-bottom: 30px;}
+.tg-description{
+    font-size:15px;
+}
+.service-list{
+    font-size:13px;
+}

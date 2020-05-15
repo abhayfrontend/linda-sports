@@ -1,4 +1,39 @@
-
+<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+    <!--************************************
+            Mobile Menu Start
+    *************************************-->
+    <div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
+        <span id="tg-close" class="tg-close fa fa-close"></span>
+        <div class="tg-colhalf">
+            <ul>
+                <li class="active">
+                    <a [routerLink]="['/home']">Home</a>
+                     
+                  </li>
+                  <li>
+                      <a [routerLink]="['/roster']">Roster</a>
+                      
+                  </li>
+                 
+                  <li>
+                      <a [routerLink]="['/news']">News</a>
+                    
+                  </li>
+                  <li>
+                    <a [routerLink]="['/services']">Services</a>
+                   
+                </li>
+                <li>
+                    <a [routerLink]="['/contact']">Contact</a>
+                  
+                </li>
+                <li><a [routerLink]="['/about']">About</a></li>
+            </ul>
+        </div>
+      
+    </div>
 
 
 <router-outlet></router-outlet>
+<app-footer></app-footer>
+</div>

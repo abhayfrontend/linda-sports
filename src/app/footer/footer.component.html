@@ -102,24 +102,25 @@
                 </strong>
               </div>
               <div class="tg-description">
-                <p>Consectetur adipisicing elit sedtado eiusmod dunt ut labore et dolore magna aliqua enim minim veniami quis nostrud.</p>
+                <p> LINDA SPORTS IS A SPORTS CONSULTING & MANAGEMENT AGENCY PROVIDING SERVICES</p>
               </div>
               <ul class="tg-contactinfo">
                 <li>
                   <i class="fa fa-home"></i>
-                  <address>123 Eccles Old Road, New Salford Road London, Uk, M6 7AF</address>
+                  <address>
+                    No. 1,2,3, Near Garden City College, Bhattarahalli, K.R. Puram, Bangalore, Karnataka India- 560049</address>
                 </li>
                 <li>
                   <i class="fa fa-envelope-o"></i>
-                  <a href="info%40domain.html">info@domain.com</a>
+                  <a >info@lindasports.in</a>
                 </li>
                 <li>
                   <i class="fa fa-phone"></i>
-                  <span>+44 123 456 788 - 9</span>
+                  <span>+91 8073072932</span>
                 </li>
               </ul>
               <div class="tg-haslayout">
-                <a class="tg-btn" href="#">read more</a>
+                <a class="tg-btn" [routerLink]="['/about']">read more</a>
               </div>
             </div>
           </div>
@@ -129,16 +130,16 @@
   </div>
   <div class="tg-footerbar">
     <div class="container">
-      <span class="tg-copyright">&copy; 2016  |  All Rights Reserved</span>
+      <span class="tg-copyright">&copy; 2017  |  All Rights Reserved</span>
       <nav class="tg-footernav">
         <ul>
-          <li><a href="#">Main</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Buy Tickets</a></li>
-          <li><a href="#">Match Results</a></li>
-          <li><a href="#">Upcoming Matches</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a [routerLink]="['/home']">Home</a></li>
+          <li><a [routerLink]="['/roster']">Roster</a></li>
+          <li><a [routerLink]="['/services']">Services</a></li>
+          <li><a [routerLink]="['/about']">About</a></li>
+          <li><a [routerLink]="['/contact']">Contact</a></li>
+          <li><a [routerLink]="['/news']">News</a></li>
+       
         </ul>
       </nav>
     </div>

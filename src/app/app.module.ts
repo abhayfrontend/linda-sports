@@ -7,7 +7,12 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
-import { WrapperComponent } from './wrapper/wrapper.component';
+import { ServicesComponent } from './services/services.component';
+import { RosterComponent } from './roster/roster.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { AcademyComponent } from './academy/academy.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { WrapperComponent } from './wrapper/wrapper.component';
     FooterComponent,
     HomeComponent,
     NewsComponent,
-    WrapperComponent
+    ServicesComponent,
+    RosterComponent,
+    AboutComponent,
+    ContactComponent,
+    AcademyComponent,
+    
   ],
   imports: [
     BrowserModule,
