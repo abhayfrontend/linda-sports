@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() {
-    window.alert('website is under maintenance')
+  
    }
 
   ngOnInit() {
