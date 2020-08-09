@@ -1,0 +1,7 @@
+.hide{
+    display:none !important;
+}
+@media (max-width: 767px){
+.tg-home-slider .swiper-slide figure {
+    display: list-item !important;
+}}

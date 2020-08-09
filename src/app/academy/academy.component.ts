@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $:any;
 @Component({
   selector: 'app-academy',
   templateUrl: './academy.component.html',
@@ -10,6 +10,7 @@ export class AcademyComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('#tg-navigationm-mobile').addClass('in');
   }
 
 }

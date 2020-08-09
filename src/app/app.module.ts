@@ -12,8 +12,9 @@ import { RosterComponent } from './roster/roster.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { AcademyComponent } from './academy/academy.component';
-
-
+import { FormsModule } from '@angular/forms';
+import {MailerService} from '../app/mailer.service';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,9 +32,11 @@ import { AcademyComponent } from './academy/academy.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
     RouterModule
   ],
-  providers: [],
+  providers: [MailerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -4,7 +4,9 @@
       height: 150px;
     perspective: 1000px;
   }
-  
+  .as{
+    margin-top:0;
+  }
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -51,3 +53,14 @@
       .pt-12{
         padding-top: 12rem !important;
     }
+    @media only screen and (max-device-width: 480px) {
+      .as{
+        margin-top:75px;
+      }/* styles for mobile browsers smaller than 480px; (iPhone) */
+   }
+   @media only screen and (device-width: 768px) {
+      /* default iPad screens */
+      .as{
+        margin-top:75px;
+      }/* styles for mobile browsers smaller than 480px; (iPhone) */
+   }
